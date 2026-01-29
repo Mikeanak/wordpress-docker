@@ -1,0 +1,15 @@
+# Secrets
+.env
+
+# Backups
+*.tar.gz
+*.sql
+*.zip
+
+# WordPress runtime
+wp-content/uploads/
+wp-content/cache/
+
+# Docker volumes
+db_data/
+wp_data/
