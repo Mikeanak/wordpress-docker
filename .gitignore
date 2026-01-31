@@ -1,3 +1,7 @@
+# Ignore local credential and config files
+local.yaml
+master_key.txt
+local_setup.yaml
 # Secrets
 .env
 
