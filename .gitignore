@@ -18,3 +18,5 @@ wp-content/cache/
 # Docker volumes
 db_data/
 wp_data/
+# Ignore generated docker compose files
+docker-compose.yml
