@@ -1,0 +1,8 @@
+# Dockerfile for MySQL local instance
+
+FROM mysql:8.0
+
+
+
+# Expose default MySQL port
+EXPOSE 3306

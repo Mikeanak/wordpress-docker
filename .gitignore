@@ -1,5 +1,10 @@
+# Ignore local credential and config files
+local.yaml
+master_key.txt
+local_setup.yaml
 # Secrets
 .env
+env.yaml
 
 # Backups
 *.tar.gz
@@ -13,3 +18,5 @@ wp-content/cache/
 # Docker volumes
 db_data/
 wp_data/
+# Ignore generated docker compose files
+docker-compose.yml
